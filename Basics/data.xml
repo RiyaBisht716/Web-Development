@@ -1,0 +1,7 @@
+<?xml.stylesheet type="text/xsl" href="style.xsl"?>
+<students>
+     <student>
+          <name>Riya Bisht</name>
+          <course>AIML</course>
+    </student>
+</students>

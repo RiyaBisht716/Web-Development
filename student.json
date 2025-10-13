@@ -1,0 +1,30 @@
+{
+    "students" : [
+        {
+        "id": 1,
+        "name": "Aditya",
+        "course": "AIML",
+        "year": 2025
+    },
+    {
+        "id": 2,
+        "name": "Riya",
+        "course": "AIML",
+        "year": 2025
+    },
+    {
+        "id":3,
+        "name":"Shraddha",
+        "course": "AIML",
+        "year": 2025
+    },
+    {
+        "id":4,
+        "name": "Adrika",
+        "course": "AIML",
+        "year": 2025
+    }
+
+
+]
+}

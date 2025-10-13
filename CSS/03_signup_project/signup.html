@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <style>
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+            background-color:#2d2c2c;
+            margin: 0;
+            padding: 0;
+            height:100vh;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card{
+            background-color: #3cb367;
+            border-radius: 8px;
+            padding: 20px;
+            width:400px;
+            border:0;
+            box-shadow: 0 5px 7px white;
+            
+        }
+        h2{
+            color:#043317;
+            text-align:center;
+            padding-bottom: 6px;
+            margin-bottom: 40px;
+        }
+        form{
+            display:flex;
+            flex-direction: column;
+        }
+        input{
+            margin-bottom: 20px;
+            padding: 10px;
+            border-radius: 6px;
+            border:0;
+            color:#76a510;
+
+        }
+        button{
+            background-color: #1e930c;
+            color:#fff;
+            margin: 20px;
+            padding: 8px;
+            border-radius:8px;
+            border:0;
+            box-shadow: 0 2px 4px rgb(68, 186, 123);
+        }
+        button:hover{
+            background-color: #107915;
+        }
+    
+        
+    </style>
+</head>
+<body>
+    <header class="card">
+        <h2>Sign Up</h2>
+        <form>
+            <input type="email" name="" id="" placeholder="Email">
+            <input  type="text" name="" id="" placeholder="First name">
+            <input type="text" name="" id="" placeholder="Last name">
+            <input type="password" name="" id="" placeholder="Password">
+    
+
+            <label>Gender</label>
+            <div class="radio-group">
+                <input type="radio" id="male" name="gender" value="male">
+                <label  style="display:inline;" for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label  style="display:inline;" for="Female">Female</label>
+                <input  type="radio" id="other" name="gender" value="other">
+                <label  style="display:inline;" for="other">Other</label>
+            </div>
+            <label>Interest</label>
+            <div class="check-group">
+
+                <input type="checkbox" id="coding" name="interest" value="coding">
+                <label style="display:inline;" for="coding">Coding</label>
+                <input type="checkbox" id="music" name="interest" value="music">
+                <label  style="display:inline;"for="music">Music</label>
+                <input type="checkbox" id="dance" name="interest" value="dance">
+                <label style="display:inline;"  for="dance">Dancing</label>
+
+
+            </div>
+            <button type="submit">Sign Up</button>
+        </form>
+
+    </header>
+    
+</body>
+</html>
