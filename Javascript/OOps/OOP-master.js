@@ -96,7 +96,7 @@ let myMachine = new CoffeeMachine();
 // console.log(myMachine.brewCoffee());
 //console.log(myMachine.pressStartButton());
 
-//Polymorphism: Method name same nut behaviour is different
+//Polymorphism: Method name same but behaviour is different
 
 class Bird{
 
